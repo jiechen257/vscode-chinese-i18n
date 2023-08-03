@@ -1,7 +1,7 @@
 {
   "name": "vscode-highlight-chinese",
   "displayName": "vscode-highlight-chinese",
-  "description": "A plugin used to highlight the Chinese language of the code",
+  "description": "A plug-in for highlighting the Chinese characters that appear in the code",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.80.0"
