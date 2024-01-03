@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscode-highlight-chinese.helloWorld",
-        "title": "Hello World"
+        "command": "extension.highlightChinese",
+        "title": "Highlight Chinese Characters"
       }
     ]
   },
