@@ -40,8 +40,8 @@ suite("Extension Test Suite", () => {
 		assert.strictEqual(updatedText.includes("$t('中文字符')1"), true);
 		assert.strictEqual(updatedText.includes("$t('中文字符')2"), true);
 		console.log("passed---");
-	});
-}).timeout(10000);
+	}).timeout(10000);;
+});
 
 function sleep(ms: number) {
 	return new Promise((resolve) => setTimeout(resolve, ms));
