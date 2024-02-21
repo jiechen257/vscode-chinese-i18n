@@ -17,10 +17,10 @@ suite("Extension Test Suite", () => {
 		// Open a new untitled document
 		const document = await vscode.workspace.openTextDocument({
 			content: `
-				这是一个测试文件，包含一些中文字符。
-				中文字符1
-				中文字符2
-				这个插件应该能够高亮这些中文字符并将其用$t()包裹。
+			这是一个测试文件，包含一些中文字符。
+			中文字符1中文字符sahdfjksd三室
+			<a>中文字符2</b>
+			这个插件应该能够高亮这些中文字符并将其用$t()包裹。
 		`,
 		});
 		const editor = await vscode.window.showTextDocument(document);
